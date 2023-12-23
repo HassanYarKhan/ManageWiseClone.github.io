@@ -1,0 +1,1043 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@700&family=Outfit:wght@100;500;800&display=swap');
+*{
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    min-height: 100vh;
+}
+
+body{
+    height: fit-content;
+    border: 0;
+    padding: 0;
+    background-image: linear-gradient(to bottom, rgb(253, 242, 236),white,rgb(253 242 236));
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    overflow-x: hidden;
+}
+
+
+#dot{
+    height: 8px;
+    width: 8px;
+}
+
+#logo{
+    margin: 11px;
+    margin-top: 16px;
+    height: 45px;
+}
+#nav{
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-bottom: 2px solid rgba(118, 117, 117, 0.05);
+    /* flex-shrink: 0; */
+}
+a{
+    padding: 20px;
+    text-decoration: none;
+    color:rgb(28 28 28);
+    font-size: 15px;
+    font-family: sans-serif;
+    font-weight: 450;
+    
+}
+#menu{
+    padding: 5px;
+    width: 40vw;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+}
+#buyTemplate{
+    border: rgb(237 237 250) solid 2px;
+    padding: 15px;
+    width: max-content;
+    margin-left: 12.5%;
+    background-color: white;
+    border-radius: 15px;
+}
+
+#buyTempLink{
+    font-size: 20px;
+    font-weight: 600;
+    font-family: sans-serif;
+    padding: 8px 10px 8px 10px;
+}
+
+/****************************************************************************/
+
+#block1,#block2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+    row-gap: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: "Outfit", sans-serif;
+}
+
+#welcomeMsg{
+    letter-spacing: 0.125cap ;
+    font-size: 12px;
+    font-weight: 600;
+    text-align: center;
+    padding: 2px;
+    border-radius: 8px;
+    border: rgb(237 237 250) solid 1px;
+    background-color: white;
+    color: rgb(130 71 255);
+}
+
+#slogan{
+    text-align: center;
+    padding-left: 100px;
+    padding-right: 100px;
+    position: relative;
+    font-size: 82px;
+    font-weight: 500;
+    line-height: 1em;
+}
+
+#Orange{
+    color: rgb(254, 129, 98);
+}
+
+#para{
+    display: flex;
+    width: 50%;
+    align-items: center;
+    justify-content: center;
+    font-weight: 500;
+    text-align: center;
+    font-size: 22px;
+    font-family: sans-serif;
+    color: rgb(117, 118, 118);
+    word-wrap: break-word;
+}
+
+#buttonHolder{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+}
+
+#getstarted{
+    height: 80px;
+    padding: 16px 30px 16px 30px;
+    border-radius: 12.5px;
+    font-size: 20px;
+    font-weight: 600;
+    font-family: sans-serif;
+    border: none;
+    background-color: rgb(130, 71, 255);
+    color: white;
+    margin-right: 10px;
+}
+.watchdemocontainer{
+    height: fit-content;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+  
+
+}
+#demoLink{
+    padding: 16px;
+    margin-left: 10px;
+    border-radius: 12.5px;
+    font-size: 20px;
+    font-weight: 600;
+    font-family: sans-serif;
+    background-color: white;
+    border:solid rgb(221 217 212) 1px;
+}
+#demoPlay{
+    margin-left: 5px;
+    align-items: center;
+    height: 25px;
+    width: 25x;
+}
+/**************************************************HERO Image*************/
+#heroContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+    
+}
+
+#heroImg{
+    margin-top: 75px;
+    width: 75%;
+    height: auto;
+    border-radius: 25px;
+    object-position: center;
+    object-fit: contain;
+    image-rendering: auto;
+    box-shadow:0 40px 20px rgb(233 236 240);
+    
+}
+
+/*********************************************block2**************************************/
+#slogan2{
+    text-align: center;
+    padding-left: 100px;
+    padding-right: 100px;
+    position: relative;
+    font-size: 45px;
+    font-family: "Outfit",sans-serif;
+    font-weight: 600;
+    line-height: 1em;
+}
+
+/*******************************Two adjacent tiles***************************************************/
+#twoAdjacentTiles{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+  
+
+}
+
+.adjTiles{
+    height: 446px;
+    width: 600px;
+    border-radius: 25px;
+    margin: 20px;
+}
+
+
+#bluetile{
+    background-color: rgb(237 237 250);
+}
+    
+#whitetile{
+    background-color: white;
+}
+
+#star{
+    padding: 5px;
+    margin-top: 80px;
+    margin-left: 40px;
+    font-size: 2rem;
+    width: max-content;
+    height: max-content;
+    background-color: white;
+    border-radius: 10px;
+}
+
+#bluetiletext{
+    padding-bottom: 30px;
+    margin-top: 20px;
+    margin-left: 40px;
+    font-family: "Outfit", sans-serif;
+    font-weight: 500;
+    font-size: 42px;
+    line-height: 55px;
+}
+
+#whitetileImg, #threeImg{
+    
+    width: 100%;
+    height: auto ;
+    
+}
+
+#whitetileHeader, #threeHeader{
+    margin-left: 20px;
+    font-family: "Outfit", sans-serif;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 33px;
+    color: #1c1c1c;
+}
+
+#whitetileText, #threeText{
+    margin-left: 20px;
+    font-family:'Inter-Medium', sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    color: #767575;
+}
+/********************************************3 adjacent tiles*****************************************************************************/
+#threeAdjacentTiles{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.threeadjTiles{
+    margin: 15px;
+    width: 400px;
+    border-radius: 20px;
+    background-color: white;
+}
+/*******************************************************Dark Section*****************************************************************/
+.dark{
+    display: flex;
+    justify-content: center;
+    background-color: #1c1c1c;
+    width: 100%;
+    
+}
+#darkContents{
+    width: 75%;
+   margin-top: 100px;
+   
+}
+
+#darkContentsHeader{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: #fdf2ec;
+    font-family: "Outfit",sans-serif;
+    text-align: left;
+    font-size: 56px;
+    font-weight: 500;
+    line-height: 56px;
+}
+#darkContentsText{
+    width: 45%;
+    color: #767575;
+    font-family: "Inter",sans-serif;
+    text-align: left;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+}
+#andmore{
+    font-size: 14px;
+    line-height: 14px;
+    font-weight: 600;
+    text-align: center;
+    padding: 5px 15px 5px 15px;
+    border-radius: 12.5px;
+    border: rgb(237 237 250) solid 1px;
+    background-color: white;
+    color: rgb(130 71 255);
+}
+#container{
+    width: 100%;
+    background-color: #1c1c1c;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-shrink: 0;
+    flex-wrap: wrap;
+}
+#card{
+  
+  background-color: #212121;
+  padding: 20px;
+  border-radius: 25px;
+  height: 300px;
+  margin: 20px;
+  width: 300px;
+  
+}
+
+#cardImg{
+    width: 45px;
+    height: auto;
+    padding: 5px;
+}
+#square{
+    margin-top: 30px;
+    margin-left: 42%;
+    margin-bottom: 20px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+    width: 60px;
+    background-color:rgb(130 71 255);
+    border-radius: 25px;
+}
+#cardTitle{
+    text-align: center;
+    font-family: "Outft",sans-serif;
+    font-size: 25px;
+    line-height: 33px;
+    font-weight: 600;
+    color: #fdf2ec;
+    margin-bottom: 10px;
+}
+#cardText{
+    padding-bottom: 10%;
+    text-align: center;
+    color: #767575;
+    font-family: sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 500;
+}
+/*****************************************************************integrations*******************************************/
+#integrations{
+    background-color: #1c1c1c;
+    width: 100%;
+}
+#integrtionsMainConatiner{
+    padding: 100px;
+    padding-bottom: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#pricingMsg, #integrationsMsg{
+    width: fit-content;
+    padding: 10px;
+    font-family: sans-serif;
+    font-size: 16px;
+    line-height: 16px;
+    font-weight: 600;
+    text-align: center;
+    padding: 5px 15px 5px 15px;
+    border-radius: 12.5px;
+    border: rgb(237 237 250) solid 1px;
+    background-color: white;
+    color: rgb(130 71 255);
+    
+}
+#tools{
+    height: 12px;
+    width: 12px;
+    align-items: center;
+}
+
+#integrationsHeader{
+    width: 50%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: #fdf2ec;
+    font-family: "Outfit",sans-serif;
+    text-align: center;
+    font-size: 56px;
+    font-weight: 500;
+    line-height: 56px;
+}
+#integrationsText{
+    width: 30%;
+    color: #767575;
+    font-family: "Inter",sans-serif;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+}
+
+#integrationsImage{
+    width: 40%;
+    height: auto;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+}
+
+#integrationimg{
+    width: 100%;
+}
+/*****************************************************FAQ**********************************************************************************************************/
+#faq{
+    width: 100%;
+    height: fit-content;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 150px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    
+}
+#faqText{
+    border-radius: 20px;
+    height: 500px;
+    width: 400px;
+    background-color: white;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+#faqMsg{
+    width: fit-content;
+    padding: 10px;
+    font-family: sans-serif;
+    font-size: 16px;
+    line-height: 16px;
+    font-weight: 600;
+    text-align: center;
+    padding: 5px 15px 5px 15px;
+    border-radius: 12.5px;
+    border: rgb(237 237 250) solid 1px;
+    background-color: white;
+    color: rgb(130 71 255);
+}
+#faqHeader{
+    margin: 20px;
+    color: black;
+    font-family: "Outfit",sans-serif;
+    text-align: center;
+    font-size: 56px;
+    font-weight: 500;
+    line-height: 56px;   
+}
+#faqPara{
+    width: 50%;
+    margin: 20px;
+    color: #767575;
+    font-family: "Inter",sans-serif;
+    text-align: left;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+}
+/******************************************Question BOx*******************************************************/
+#questionBox{
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    flex-shrink: 0;
+    background-color: white;
+    height: fit-content;
+    width: 60w;
+    
+}
+
+.qContainer{
+    margin: 0;
+    border-radius: 20px;
+    margin-top: 15px;
+    height: fit-content;
+    width: 850px;
+    background-color: #F7F8FD;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    flex-shrink: 0;
+    position: relative;
+    cursor: pointer;
+}
+
+.question{
+    word-wrap: break-word;
+    padding: 10px 50px 10px 10px;
+    width: 50vw;
+    display: flex;
+    text-align: center;
+    justify-content: flex-start;
+    text-align: left;
+    height: max-content;
+    margin: 10px 10px;
+    text-align: left;
+    font-family: "Outfit-600", sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    color: #1c1c1c;
+}
+
+.question:after{
+    font-size: 2rem;
+    content: "+";
+    position: absolute;
+    right : 20px;
+    color: #8247ff
+}
+
+.question.active::after{
+    font-size: 2rem;
+    content: "-";
+    content: #8247ff;
+}
+
+.answer{
+    padding-left: 20px;
+    padding-right: 20px;
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    word-wrap: break-word;
+    font-size: 16px;
+    line-height: 22px;
+    color:#767575;
+    width: 90%;
+    height: auto;
+    display: none;
+}
+
+/**********************************************pricing***********************/
+#pricingInfo{
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#pricingMsg{
+    margin: 25px;
+    width: fit-content;
+    padding: 10px;
+    font-family: sans-serif;
+    font-size: 12px;
+    line-height: 16px;
+    font-weight: 600;
+    text-align: center;
+    padding: 5px 15px 5px 15px;
+    border-radius: 12.5px;
+    border: rgb(237 237 250) solid 1px;
+    background-color: white;
+    color: rgb(130 71 255);
+}
+
+#pricingHeader{
+    margin-bottom: 25px;
+    text-align: center;
+    padding-left: 100px;
+    padding-right: 100px;
+    position: relative;
+    font-size: 45px;
+    font-weight: 600;
+    line-height: 1em;
+}
+
+#pricingText{
+        width: 60%;
+        color: #767575;
+        font-family: "Inter",sans-serif;
+        text-align: center;
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 30px;
+}   
+
+#pricingCards{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.card{
+    padding: 20px;
+    margin: 50px 10px 50px 10px;
+    border-radius: 20px;
+    height:450px;
+    width: 300px;
+    background-color: #1c1c1c;
+}
+
+#cost{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+}
+    
+#costPrice{
+    display: flex;
+    flex-direction: row;
+}
+#monthsContainer{
+    display: flex;
+    flex-direction: column;  
+    justify-content: flex-end; 
+}
+#costMsg{
+    width: fit-content;
+    padding: 10px;
+    font-family: sans-serif;
+    font-size: 12px;
+    line-height: 16px;
+    font-weight: 600;
+    text-align: center;
+    padding: 5px 15px 5px 15px;
+    border-radius: 12.5px;
+    border: rgb(237 237 250) solid 1px;
+    background-color: white;
+    color: rgb(254, 129, 98);
+    margin-bottom: 20px;
+}
+.dollars{
+    color: white;
+    font-family: "Outfit", sans-serif;
+    font-size: 56px;
+    line-height: 56px;
+    font-weight: 500;
+}
+.perMonth{
+    color: white;
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    line-height: 21px;
+    font-weight: 600;
+}
+
+#list{
+    display: flex;
+    flex-direction: column;
+}
+
+#listItem{
+    margin: 5px;
+}
+
+#listText{
+    font-family: "Inter-Medium", sans-serif;
+    font-size: 16px;
+    line-height: 24x;
+    font-weight: 500;
+    color: #767575;
+}
+.pricingButton{
+    display: flex;
+    justify-content: flex-start;
+}
+.pricingLink{
+
+    height: fit-content;
+    padding: 10px 20px 10px 20px;
+    border-radius: 12.5px;
+    font-size: 18px;
+    line-height: 22px;
+    font-weight: 600;
+    font-family: sans-serif;
+    border: none;
+    background-color: rgb(130, 71, 255);
+    color: white;
+}
+
+#standard,#free{
+ background-color: #ededfa;   
+}
+
+
+
+#DarkTextDollars,#DarkTextMonths{
+    color: black;
+}
+
+#whiteButtonfree{
+    color: #1c1c1c;
+    background-color: white;
+    margin-top: 65px
+}
+
+#whiteButtonstandard{
+    color: #1c1c1c;
+    background-color: white;
+    margin-top: 30px;
+}
+/*******************************************************************************testimonials**********************************/
+.testimonials{
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    
+}
+#testcontents{
+    width: 75%;
+   margin-top: 100px;
+   
+}
+
+#testContentsHeader{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: black;
+    font-family: "Outfit",sans-serif;
+    text-align: left;
+    font-size: 56px;
+    font-weight: 500;
+    line-height: 56px;
+}
+#testContentsText{
+    width: 45%;
+    color: #767575;
+    font-family: "Inter",sans-serif;
+    text-align: left;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+}
+#test{
+    font-size: 14px;
+    line-height: 14px;
+    font-weight: 600;
+    text-align: center;
+    padding: 5px 15px 5px 15px;
+    border-radius: 12.5px;
+    border: rgb(237 237 250) solid 1px;
+    background-color: white;
+    color: rgb(130 71 255);
+}
+
+/************************************************************closing hero******************************************************************/
+
+#closingWrapper{
+    margin-top: 100px;
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 40px;
+}
+#closingContainer{
+    border-radius: 50px;
+    padding: 0 20px 0 20px;
+    display: flex;
+    flex-direction: row;
+    flex-shrink: 0;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+}
+
+#panel{
+    margin: 20px;
+}
+
+#tryOut{
+    height: fit-content;
+    padding: 16px 30px 16px 30px;
+    border-radius: 12.5px;
+    font-size: 20px;
+    font-weight: 600;
+    font-family: sans-serif;
+    border: none;
+    background-color: rgb(130, 71, 255);
+    color: white;
+    margin-right: 10px;
+}
+
+#imagePanel{
+    display: flex;
+    flex-direction: column;
+    flex-shrink: 0;
+    justify-content: center;
+    align-items: center;
+}
+
+.happyUsersText{
+    padding: 10px;
+    border-radius: 20px;
+    border: #ededfa 2px solid;
+    text-align: center;
+    font-family: "Outfit", sans-serif;
+    font-size: 25px;
+    line-height: 33px;
+}
+
+#imageContents{
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    margin-bottom: 50px;
+}
+
+#usersImage{
+    padding: 10px ;
+    box-shadow: 5px 5px 10px #ededfa;
+    display: flex;
+    align-items: flex-end;
+}
+
+#purpleText{
+    color: #8247ff;
+}
+
+/**************************************************************footer tag***************************************/
+
+#footer{
+    width: 100vw;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#footerContents{
+    width: 75%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+#top-left {
+    flex: 50%; 
+}
+
+#top-right {
+    flex: 50%;
+    text-align: right;
+}
+
+#bottom-left {
+    flex: 50%;
+    font-size: 15px;
+    font-family: sans-serif;
+    font-weight: 500 ;
+    line-height: 24px;
+}
+
+#bottom-right {
+    flex: 50%;
+    text-align: right;
+}
+
+#top-right{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+#footertag{
+    padding: 5px;
+    font-family: sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+}
+#finalBreak{
+    height: 10px;
+    width: 80%;
+    color: #1c1c1c;
+}
+#socialMedia{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+#social{
+    padding: 0px;
+    margin: 0;
+}
+
+#slideCard{
+    display: inline-block;
+    min-width: 350px;
+    height: fit-content;
+    border-radius: 20px;
+    background-color: white;
+    border: #ededfa solid 1px;
+    margin: 10px;
+    overflow:hidden ;
+}
+
+#slideText{
+    padding: 50px;
+    font-family: sans-serif;
+    font-size: 20px;
+    line-height: 30px;
+}
+#slideAbout{
+    padding: 0 50px 0 50px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+#photo{
+    margin: 20px;
+    height: 50px;
+    width: 50px;
+    background-color: #F7F8FD;
+    border-radius: 50%;
+}
+#name{
+    font-family: sans-serif;
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 500;
+}
+#job{
+    font-family: sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 500; 
+    color: #767575;  
+}
+
+
+/**************************Slider************************************/
+
+/*logos*/
+.sliderWrapper{
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+/*logo-slide*/
+.slider{
+    width: 80%;
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: hidden;
+    animation: 30s slide infinite linear;
+    
+}
+
+.sliderWrapper::before{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 2000px;
+    height: 100%;
+    background: linear-gradient(to left, rgba(255,255,255,0), white);
+    content: "";
+    z-index: 2;
+}
+
+.sliderWrapper::after{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 2000px;
+    height: 100%;
+    background: linear-gradient(to right, rgba(255,255,255,0),white);
+    content: "";
+    z-index: 2;
+}
+/********************Animations**************************************/
+
+@keyframes slide {
+    from{
+        transform: translateX(0);
+    }
+    to{
+        transform: translate(100%);
+    }
+}
+
+#answer{
+    display: none;
+}
